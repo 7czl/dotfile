@@ -1,0 +1,13 @@
+layout {
+  pane split_direction="vertical" {
+    pane command="neofetch"
+    pane command="ncspot" close_on_exit=true
+  }
+  pane split_direction="vertical" {
+    pane command="btm" close_on_exit=true
+    pane command="htop" close_on_exit=true
+  }
+  pane size=1 borderless=true {
+    plugin location="zellij:compact-bar"
+  }
+}
